@@ -11,15 +11,21 @@
     <title>Appointment Page</title>
 </head>
 <body>
-    <header>
-        <h1>Schedule Your Appointment</h1>
-    </header>
+   
+    <div class="row">
+    <div class="col-sm-6 side-img" >
+    
+    </div>    
+    <div class="col-sm-6">    
+        <header>
+            <h1>Schedule Your Appointment</h1>
+        </header>
     <div class="appointment">
     
         <form class="mx-auto">
         <div class="dropdown-container">
             <div class="dropdown">
-                <label for="specialization">Choose a specialization:</label><br>
+                <label for="specialization">Choose specialization:</label><br>
                 <select id="specialization">
                     <option value="cardiology">Cardiology</option>
                     <option value="gastroentrology">Gastroentrology</option>
@@ -27,7 +33,7 @@
                 </select>
             </div>
             <div class="dropdown">
-                <label for="doctor">Choose a Doctor:</label><br>
+                <label for="doctor">Choose Doctor:</label><br>
                 <select id="doctor">
                     <!-- Doctors will be added dynamically -->
                 </select>
@@ -44,6 +50,8 @@
         <input type="text" class="input" id="healthIssue" name="healthIssue" placeholder="Enter your health issue here" required><br>
         <input type="submit" class="appointmentbtn" value="Book an appointment">
     </form> 
+</div>
+</div>
 </div>
 
 </body>

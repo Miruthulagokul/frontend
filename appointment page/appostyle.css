@@ -1,6 +1,9 @@
+body{
+    background: url();
+}
 header {
-    background-color: #088f8f;
-    color: #fff;
+    background-color:transparent;
+    color: #088f8f;
     padding: 1rem;
     text-align: center;
     height: 10;
@@ -9,10 +12,23 @@ header {
     background-color: #fff;
     padding: 2rem;
     margin: 2rem auto;
-    max-width: 80%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+   
+}
+.side-img{
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.row{
+height: px;
+    
 }
 
 .appointment .dropdown-container {
@@ -27,28 +43,34 @@ header {
 }
 
 .appointment label {
-    display: block;
-   
+   color: #088f8f;
+   margin-top: 15px;
     font-weight: bold;
 }
-
+img{
+    height: 100%;
+    width: 100%;
+}
+   
 .appointment input[type="text"],
 .appointment input[type="tel"],
 .appointment input[type="date"],
 .appointment input[type="time"] {
-    display: block;
-    width: 100%;
-   
+    
     font-size: 1rem;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid grey;
+    transition: 0.4s;
+    margin-right: 15px;
   
    
 }
 
 .appointment .appointmentbtn {
-    display: block;
+    display:block;
+    width: 250px;
     padding: 0.5rem;
+    margin-top: 15px;
     font-size: 1rem;
     border-radius: 5px;
     border: none;
