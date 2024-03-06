@@ -1,17 +1,17 @@
 const data = [
     {
-        place:'Switzerland Alps',
-        title:'SAINT',
-        title2:'ANTONIEN',
-        description:'Tucked away in the Switzerland Alps, Saint Antönien offers an idyllic retreat for those seeking tranquility and adventure alike. It\'s a hidden gem for backcountry skiing in winter and boasts lush trails for hiking and mountain biking during the warmer months.',
-        image:'https://assets.codepen.io/3685267/timed-cards-1.jpg'
+        place:'',
+        title:'Your Health,',
+        title2:'One Click Away.',
+        description:'Experience unparalleled convenience in managing your health with our platform. With just one click, book appointments, consult doctors, and access medical advice. We make healthcare accessible at your fingertips.',
+        image:'https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20180730012801/ri/673/picture/2018/7/shutterstock_608550530.jpg'
     },
     {
-        place:'Japan Alps',
-        title:'NANGANO',
-        title2:'PREFECTURE',
-        description:'Nagano Prefecture, set within the majestic Japan Alps, is a cultural treasure trove with its historic shrines and temples, particularly the famous Zenkō-ji. The region is also a hotspot for skiing and snowboarding, offering some of the country\'s best powder.',
-        image:'https://assets.codepen.io/3685267/timed-cards-2.jpg'
+        place:'Welcome',
+        title:'Book, Meet, and Heal',
+        title2:'-its that simple',
+        description:'Our website simplifies your healthcare experience. In just a few clicks, you can book an appointment, meet with top healthcare professionals, and embark on your healing journey. We make the process straightforward and stress-free.',
+        image:'https://medpal.live/assets/images/doctorloginimg.png'
     },
     {
         place:'Sahara Desert - Morocco',
