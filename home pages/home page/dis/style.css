@@ -2,7 +2,7 @@
 body {
   margin: 0;
   background-color: #1a1a1a;
-  color: #FFFFFFDD;
+  color: #ffffffdd;
   position: relative;
   overflow: hidden;
   font-family: "Inter", sans-serif;
@@ -28,7 +28,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  color: #FFFFFFDD;
+  color: #ffffffdd;
   padding-left: 16px;
 }
 
