@@ -2,11 +2,11 @@ body{
     background: url();
 }
 header {
-    background-color:transparent;
     color: #088f8f;
     padding: 1rem;
     text-align: center;
-    height: 10;
+    height: 100px;
+
 }
 .appointment {
     background-color: #fff;
@@ -15,14 +15,17 @@ header {
     justify-content: center;
     align-items: center;
     max-width: 600px;
+    border: 2px solid #088f8f;
+    box-shadow: .5rem .5rem 0 rgb(22,160,133,.2);
    
 }
 .side-img{
-    background-image: url(image.jpg);
+    background-image: url(appoimg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     border-radius: 10px 0 0 10px;
+    width: 40%;
 
 }
 

@@ -12,15 +12,16 @@
 </head>
 <body>
    
+    <header><h1>Schedule Your Appointment</h1></header>
+
     <div class="row">
     <div class="col-sm-6 side-img" >
     
     </div>    
     <div class="col-sm-6">    
-        <header>
-            <h1>Schedule Your Appointment</h1>
-        </header>
+           
     <div class="appointment">
+        
     
         <form class="mx-auto">
         <div class="dropdown-container">
@@ -34,7 +35,7 @@
             </div>
             <div class="dropdown">
                 <label for="doctor">Choose Doctor:</label><br>
-                <select id="doctor">
+                <select id="doctor" class="input">
                     <!-- Doctors will be added dynamically -->
                 </select>
             </div>
@@ -48,7 +49,7 @@
         <input type="date" class="input" id="preferableDate" name="preferableDate"><br>
         <label for="healthIssue">Health Issue:</label><br>
         <input type="text" class="input" id="healthIssue" name="healthIssue" placeholder="Enter your health issue here" required><br>
-        <input type="submit" class="appointmentbtn" value="Book an appointment">
+        <input type="submit" class="appointmentbtn" value="Book appointment">
     </form> 
 </div>
 </div>
